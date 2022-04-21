@@ -59,6 +59,12 @@
             Grid.Row="1"
             Margin="650,179,5,96"
             InitialTypeName="App1.us" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="670,114,0,0" Grid.Row="1" VerticalAlignment="Top" />
+        
+        <Button
+            Grid.Row="1"
+            Margin="670,114,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Button" Click="Button_Click"/>
     </Grid>
 </Window>

@@ -39,8 +39,8 @@ namespace WpfApp1
 
             if (calendarView != null)
             {
-                
 
+           
                 calendarView.SelectedDatesChanged += (obj, args) =>
                 {
                     if (args.AddedDates.Count > 0)
@@ -56,7 +56,6 @@ namespace WpfApp1
         {
             if (myButton.Child is Windows.UI.Xaml.Controls.Button button)
             {
-                
                 button.Content = "Click me!";
                 button.Click += (s, args) =>
                 {
@@ -65,6 +64,10 @@ namespace WpfApp1
             }
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
 
